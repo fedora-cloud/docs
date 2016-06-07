@@ -56,6 +56,10 @@ These are docs we would like to see written
 * Ansible
 * docker examples from (Fedora Dockerfiles)[https://github.com/fedora-cloud/Fedora-Dockerfiles]
     * These will eventually be converted into DistGit when the Docker Layered Image Build System is eventually available
+* How to Test Fedora Atomic?
+    * [AutoCloud](https://apps.fedoraproject.org/autocloud/jobs/)
+    * [BugYou](https://pagure.io/bugyou)
+    * [Fedora Atomic-Images Issues](https://pagure.io/atomic-images)
 
 
 # Licensing
