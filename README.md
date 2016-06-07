@@ -1,2 +1,50 @@
-# docs
-Fedora Cloud Documentation
+# Fedora Cloud Documentation
+
+Here in lies Fedora's Cloud Documentation, the goal of this github repository is
+to host documentation (regardless of markup language) as well as a list of
+externally hosted Cloud related Documentation.
+
+# Pull Requests
+If there are any documents that you would like to see updated or created, please
+issue a pull request and we will gladly accept it.
+
+# External Links
+
+In this section of the README we will maintain a list of documentation that is
+hosted external to this git repository. As time goes on we plan to merge these
+documentation efforts but for now we need to have a single location that can
+index currently available content as well as create new content.
+
+* [Fedora Cloud User Guide](http://fedoracloud.readthedocs.io/en/latest/)
+* [Fedora Cloud Guide
+  DRAFT](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/Cloud_Guide/index.html)
+
+
+# Licensing
+
+To make licensing easier, license headers in the source files will be
+a single line reference to Unique License Identifiers as defined by
+the [Linux Foundation's SPDX project](http://spdx.org/).
+
+For example, in a source file the full "GPL v2.0 or later" header text will be
+replaced by a single line:
+
+    SPDX-License-Identifier:    GPL-2.0+
+
+Or alternatively, in a source file the full "CC-BY-SA-4.0" header text will be
+replaced by a single line:
+
+    SPDX-License-Identifier:    CC-BY-SA-4.0
+
+the license terms of all files in the source tree should be defined
+by such License Identifiers; in no case a file can contain more than
+one such License Identifier list.
+
+If a `SPDX-License-Identifier:` line references more than one Unique
+License Identifier, then this means that the respective file can be
+used under the terms of either of these licenses, i. e. with
+
+    SPDX-License-Identifier:    GPL-2.0+    LGPL-2.1+
+
+All SPDX Unique License Identifiers available [here](http://spdx.org/licenses/).
+
