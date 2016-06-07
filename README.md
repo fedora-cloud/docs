@@ -27,7 +27,6 @@ index currently available content as well as create new content.
 
 These are docs we would like to see written
 
-
 * What is Fedora Cloud?
 * What is Atomic / Atomic Host?
     * Why is this interesting, why should I as an user care?
@@ -48,15 +47,20 @@ These are docs we would like to see written
     * OpenShift/Kubernetes/Deis/etc
     * Mesos
     * Docker Swarm
-* IaaS Cloud Provider Specific Guides
+* IaaS Cloud Provider Specific Guides (both Atomic and regular Fedora)
     * AWS
     * Digital Ocean
     * Linode
 * Vagrant
+    * what it is, how to use it
+    * using Vagrant to deploy to cloud providers
 * Ansible
 * docker examples from (Fedora Dockerfiles)[https://github.com/fedora-cloud/Fedora-Dockerfiles]
     * These will eventually be converted into DistGit when the Docker Layered Image Build System is eventually available
-
+* Building Images
+    * How do I build images based on Fedora base images?
+    * What is the layered image build service, and how do I use it?
+    * systemd in containers?
 
 # Licensing
 
@@ -85,4 +89,3 @@ used under the terms of either of these licenses, i. e. with
     SPDX-License-Identifier:    GPL-2.0+    LGPL-2.1+
 
 All SPDX Unique License Identifiers available [here](http://spdx.org/licenses/).
-
