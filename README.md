@@ -1,5 +1,7 @@
 # Fedora Cloud Documentation
 
+## NOTE: ALL ITEMS HERE SHOULD CURRENTLY BE CONSIDERED DRAFT
+
 Here in lies Fedora's Cloud Documentation, the goal of this github repository is
 to host documentation (regardless of markup language) as well as a list of
 externally hosted Cloud related Documentation.
@@ -7,6 +9,8 @@ externally hosted Cloud related Documentation.
 # Pull Requests
 If there are any documents that you would like to see updated or created, please
 issue a pull request and we will gladly accept it.
+
+New docs should go into `docs` dir.
 
 # External Links
 
@@ -18,6 +22,40 @@ index currently available content as well as create new content.
 * [Fedora Cloud User Guide](http://fedoracloud.readthedocs.io/en/latest/)
 * [Fedora Cloud Guide
   DRAFT](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/Cloud_Guide/index.html)
+
+# Wishlist
+
+These are docs we would like to see written
+
+
+* What is Fedora Cloud?
+* What is Atomic / Atomic Host?
+    * Why is this interesting, why should I as an user care?
+    * How do I get up and running with Fedora Atomic Host?
+        * on bare metal
+        * on AWS
+        * on other clouds/VMs
+* How do I run apps and services on Fedora Atomic Host?
+    * What is a super priv container?
+    * What is an atomic-app?
+    * How do I create one?
+* How do I do "traditional" sysadmin things in Atomic Host?
+    * rsyslog Super Priv Container
+    * nginx/ httpd as dev server
+    * Ansible-container ?
+* Single-Host
+    * Multi-Host Container Orchestration:
+    * OpenShift/Kubernetes/Deis/etc
+    * Mesos
+    * Docker Swarm
+* IaaS Cloud Provider Specific Guides
+    * AWS
+    * Digital Ocean
+    * Linode
+* Vagrant
+* Ansible
+* docker examples from (Fedora Dockerfiles)[https://github.com/fedora-cloud/Fedora-Dockerfiles]
+    * These will eventually be converted into DistGit when the Docker Layered Image Build System is eventually available
 
 
 # Licensing
